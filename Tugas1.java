@@ -30,7 +30,7 @@ public class Tugas1 {
         System.out.println("Daftar nilai mahasiswa: ");
 
         for (int i = 0; i < jmlMhs; i++) {
-            System.out.println("Nailai mahasiswa ke-" + (i + 1) + ": " + nilaiMhs[i]);
+            System.out.println("Nilai mahasiswa ke-" + (i + 1) + ": " + nilaiMhs[i]);
         }
 
         System.out.println("Nilai mahasiswa yang tertinggi: " + tertinggi);
