@@ -5,7 +5,7 @@ public class ArrayRataNilai15 {
         Scanner sc = new Scanner(System.in);
 
         int[] nilaiMhs = new int[10];
-        double total = 0, rata2;
+        double total = 0;
         int jmlLulus = 0;
 
         for (int i = 0; i < nilaiMhs.length; i++) {
