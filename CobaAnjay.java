@@ -2,12 +2,12 @@ import java.util.Scanner;
 public class CobaAnjay {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int banyak = 5;
+
         int[] nilaiMhs = new int[5];
         int key = 78;
         int hasil = 0;
 
-        System.out.println("Masukkan banyaknya nilai yang akan diinput: " + banyak);
+        System.out.println("Masukkan banyaknya nilai yang akan diinput: ");
         for (int i = 0; i < nilaiMhs.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i+1) + " : ");
             nilaiMhs[i] = sc.nextInt();
