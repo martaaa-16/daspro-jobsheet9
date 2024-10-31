@@ -6,6 +6,7 @@ public class SearchNilai15 {
         int jmlMhs = 0;
         System.out.print("Masukkan banyaknya nilai yang akan diinput: ");
         jmlMhs = sc.nextInt();
+        
         int[] nilaiMhs = new int[jmlMhs];
         int key = 85, hasil = 0;
 
